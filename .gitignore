@@ -1,0 +1,4 @@
+*.docx
+__pycache__/
+*.pyc
+generate_pdf.py
