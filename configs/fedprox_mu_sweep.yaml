@@ -1,0 +1,14 @@
+# μ sweep is handled in run_all.py by iterating over mu_values.
+# This config defines the base setup; mu is overridden per run.
+experiment_name: "fedprox_mu_sweep"
+strategy: "fedprox"
+num_clients: 10
+num_rounds: 20
+local_epochs: 3
+batch_size: 32
+lr: 0.001
+mu: 0.01
+partition: "noniid"
+classes_per_client: 2
+seed: 42
+mu_values: [0, 0.001, 0.01, 0.1]

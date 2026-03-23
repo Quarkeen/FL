@@ -1,0 +1,11 @@
+experiment_name: "adaptive_fedprox"
+strategy: "adaptive"
+num_clients: 10
+num_rounds: 20
+local_epochs: 3
+batch_size: 32
+lr: 0.001
+alpha_drift: 0.1
+partition: "noniid"
+classes_per_client: 2
+seed: 42

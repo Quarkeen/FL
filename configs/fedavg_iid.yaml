@@ -1,0 +1,10 @@
+experiment_name: "fedavg_iid"
+strategy: "fedavg"
+num_clients: 10
+num_rounds: 20
+local_epochs: 3
+batch_size: 32
+lr: 0.001
+mu: 0.0
+partition: "iid"
+seed: 42
